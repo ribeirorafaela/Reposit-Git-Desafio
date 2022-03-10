@@ -1,7 +1,7 @@
 body {background-color: rgb(215, 215, 250);
 }
 
-#title, #subtitle, #post-title {
+#title, #subtitle, #post-title, #firstblock {
     color: cornflowerblue;
 }
 #post-title {
@@ -11,7 +11,7 @@ body {background-color: rgb(215, 215, 250);
 }
 .post {
     background-color: cornsilk;
-    padding: 30px;
+    padding: 30px 20px;
     border: 3px solid slategrey;
     margin: 10px;
 }
