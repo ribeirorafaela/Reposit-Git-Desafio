@@ -1,0 +1,17 @@
+body {background-color: rgb(215, 215, 250);
+}
+
+#title, #subtitle, #post-title {
+    color: cornflowerblue;
+}
+#post-title {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.post {
+    background-color: cornsilk;
+    padding: 30px;
+    border: 3px solid slategrey;
+    margin: 10px;
+}
