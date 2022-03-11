@@ -1,14 +1,22 @@
 body {background-color: rgb(215, 215, 250);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 97%;
 }
 
-#title, #subtitle, #post-title, #firstblock {
+#title, #post-title, #subtitle, #firstblock {
     color: cornflowerblue;
+}
+#title{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: xx-large;
 }
 #post-title {
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     margin: auto;
+    text-align: center;
 }
 .post {
     background-color: cornsilk;
@@ -17,4 +25,18 @@ body {background-color: rgb(215, 215, 250);
     border-radius: 3%;
     margin: 10px;
     margin-bottom: 10px;
+}
+#subtitle {
+    text-transform: uppercase;
+   
+}
+ol {
+    list-style: lower-roman;
+}
+ul{
+    list-style-type: "\1F44D";
+}
+
+#post-img {
+    width:95%;
 }
